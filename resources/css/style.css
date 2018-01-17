@@ -1,0 +1,84 @@
+/* Universal Themes */
+body{
+  width: 1250px;
+  font-family: sans-serif;
+  line-height: 1.2;
+  font-size: 18px;
+  margin: 0 auto;
+  font-weight: bold;
+  color: rgba(0,0,0,.75);
+}
+
+a{
+  color: rgba(0, 0, 255, 0.75);
+  padding: 5px 5px;
+  transition: color 0.3s linear;
+}
+
+a:hover{
+  color: rgba(0,0,0,0.75);
+}
+/* navagation header */
+nav ul{
+  display: flex;
+}
+
+nav li{
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: .97rem;
+}
+
+nav{
+  margin-bottom: 50px;
+}
+
+header h1{
+  font-size: 2.5rem;
+  width: 50%;
+}
+
+.name a{
+  text-decoration: none;
+}
+
+.name a:hover{
+  text-decoration: underline;
+}
+
+/*to style the link the user is currently on*/
+
+body.home a.home, body.about a.about{
+  color: rgba(0, 0, 0, 0.75);
+}
+
+/*works section*/
+.works{
+  margin-top: 40px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.img-contain{
+
+}
+
+.img{
+  height: 200px;
+  width: 380px;
+  background-color: blue;
+}
+
+.text{
+  margin-top: 5px;
+  margin-bottom: 5px
+}
